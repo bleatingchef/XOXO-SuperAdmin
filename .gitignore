@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Environment variables
+
+# Logs
+*.log
+
+# Compiled output
+dist/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE configurations
+.vscode/
+.idea/
+
+# Dependency lock files (optional)
+# package-lock.json
+# yarn.lock
+
+# Coverage reports
+coverage/
+
+# Temporary files
+tmp/
+temp/

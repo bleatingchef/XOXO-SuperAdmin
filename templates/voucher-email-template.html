@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voucher Email</title>
+    <style>
+        /* Basic styles for centering and formatting */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto; /* Centers the image */
+            max-width: 100%; /* Ensures the image is responsive */
+            height: auto;
+        }
+
+        .email-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <h1>Hello, ${name}!</h1>
+        <p>Here is your gift voucher. Click on the image below to redeem it:</p>
+        <a href="${redirectUrl}">
+            <img src="cid:voucherImage" alt="Voucher Image" />
+        </a>
+    </div>
+</body>
+</html>
